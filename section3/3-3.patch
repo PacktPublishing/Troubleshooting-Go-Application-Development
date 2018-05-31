@@ -1,0 +1,16 @@
+diff --git girya.go girya.go
+index ff60bac..9e8f8d4 100644
+--- girya.go
++++ girya.go
+@@ -25,8 +25,8 @@ func Strength() string {
+	return "Strength == kettlebell!"
+ }
+ 
+-// PrintLadders prints out a list of the sets in a ladder.
+-func PrintLadders(rungs int) {
++// Ladders prints out a list of the sets in a ladder.
++func Ladders(rungs int) {
+	if rungs < min || rungs > max {
+		fmt.Printf("%d-rung ladders are invalid -- minimum %d, maximum %d.\n", rungs, min, max)
+		return
+
